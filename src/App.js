@@ -1,12 +1,22 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap";
 
 function App() {
   return (
-    <div className="App container">
-      Hello reactkkk
-      <button className="btn btn-primary"></button>
+    <div className="App">
+      <div className="container">
+        <header className="App-header">Look up a word</header>
+      </div>
+      <footer>
+        <a
+          href="https://github.com/psychokot11/react_new_dictionary_app"
+          className="link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <b>open-source</b>
+        </a>{" "}
+        code by Zosia S
+      </footer>
     </div>
   );
 }
